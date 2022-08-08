@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&family=Roboto&family=Roboto+Condensed:wght@300&family=Staatliches&family=Ubuntu:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&family=Roboto&family=Roboto+Condensed:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Staatliches&display=swap');*/
+*{
+	margin: 0;
+	line-height: 60px;
+}
+
+body{
+	background-color: lightyellow;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.image-size{
+	width: 300px;
+}
+
+.top{
+	padding: 0;
+	margin: 0;
+	background-color: #2B4865;
+	width: 100%;
+}
+
+.top-cloud{
+	margin-top: 140px;
+	position: relative;
+	left: 220px;
+	width: 20%;
+}
+
+.bottom-cloud{
+	display: block;
+	margin: auto;
+	position: relative;
+	right: 180px;
+	width: 18%;
+}
+
+.mountain{
+	margin-bottom: -15px;
+	width: 60%;
+	position: relative;
+	top: 10px;
+}
+
+.margining{
+	margin-bottom: 20px;
+	color: papayawhip;
+}
+
+#name{
+	font-size: 5rem;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 70px;
+}
+
+.specs{
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 70px;
+}
+
+
+.my-introduction, .skills{
+	width: 70%;
+	margin: 50px auto;
+}
+
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	color: #002B5B;
+}
+
+p{
+	font-size: 20px;
+}
+
+.coffee{
+	margin: 50px auto;
+}
+
+a{
+	font-size: 1.5rem;
+	margin: 0 10px;
+}
+
+.design-development, .coffee{
+	text-align: left;
+}
+
+.design-development, .coffee{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cup{
+	display: grid;
+	justify-items: end;
+}
+
+.skyblue , .design-box{
+	width: 50%;
+}
+
+hr{
+	border-top: 10px dotted royalblue;
+	width: 10%;
+	margin: 20px auto;
+}
+
+.my-introduction{
+	text-align: center;
+}
+
+.get-touch{
+	font-size: 60px;
+	color: #002B5B;
+	margin: 30px 0;
+	font-family: sans-serif;
+}
+
+.footer{
+	background-color: royalblue;
+	position: relative;
+	top: 30px;
+	height: 200px;
+	display: grid;
+	align-items: center;
+}
+
+.vertcal-center{
+}
+
+.contact-btn{
+	text-decoration: none;
+	background-color: royalblue;
+	padding: 15px;
+	color: whitesmoke;
+	border-radius: 10px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.contact-btn:hover{
+	background-color: cadetblue;
+}
+
+.social-links{
+	text-decoration: none;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.social-links:hover{
+	background-color: whitesmoke;
+	color: royalblue;
+}
+
+
+@media (max-width: 980px) {
+  .skyblue, .design-box {
+    flex: 100%;
+  }
+
+  .cup{
+	display: grid;
+	justify-items: start;
+}
+}
+
